@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav h1{
+    font-size: 2rem;
+    
+}
+section{
+    background: rgb(235, 241, 243);
+}
+.nav-bar{
+    /* background-color:rgb(43, 38, 38); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* color: white; */
+    height: 70px;
+    width: 100%;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+nav ul a{
+   
+    /* margin-left: 5px; */
+    display: block;
+    direction: none;
+    /* padding: .5rem; */
+    border: .1rem solid black ;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    padding-bottom: 2px;
+}
+nav ul a .fa-solid{
+    
+    border: 1px solid red;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(1fr , 200px); */
+    /* flex-wrap: wrap; */
+   /* width: 200px; */
+    /* padding: 200px; */
+    border: 1px solid red;
+
+}
+.task-ready{
+    padding:0 60px;
+    
+}
+.task-ready .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .card{
+    padding: 20px 20px;
+    /* border: 1px solid purple; */
+    border-radius: .3rem;
+    width: 200px;
+    background: white;
+}
+.card .card-container .dot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .5rem ;
+    /* padding-right: 2rem; */
+    /* margin-right: 200px; */
+    /* border: 1px solid red; */
+    gap: 40px;
+
+}
+.card .card-container .dot  #one{
+    color: purple;
+    background: rgb(235, 207, 235);
+    /*  */
+    border-radius: 1rem;
+   
+}
+.card .card-container .dot p{
+    padding:.1rem .5rem;
+}
+
+.card .card-container .dot #two{
+    color: blue;
+    border-radius: 1rem;
+    background: rgb(215, 215, 247);
+}
+.card .card-container .dot #three{
+    color: purple;
+    border-radius: 1rem;
+    background: rgb(235, 207, 235);
+}
+.card .card-container .dot #four{
+    color: green;
+    border-radius: 1rem;
+    background: rgb(179, 236, 179);
+}
+
