@@ -9,6 +9,10 @@ nav h1{
 }
 section{
     background: rgb(235, 241, 243);
+    /* padding: 15px 9%; */
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100vh;
 }
 .nav-bar{
     /* background-color:rgb(43, 38, 38); */
@@ -34,6 +38,59 @@ nav ul li{
     height: 30px;
     border-radius: 50%;
 }
+.dot2 ul{
+    list-style: none;
+}
+.part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.part1 a{
+    padding: 0 .5rem;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.part2 a{
+    padding: 0 1rem;
+}
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.part3 a{
+    padding: 0 1rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100vh;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+.dot2 ul li{
+    margin: 0 10px;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
 nav ul a{
    
     /* margin-left: 5px; */
@@ -49,34 +106,48 @@ nav ul a{
 }
 nav ul a .fa-solid{
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-.container{
-    display: flex;
+.box-container{
+    display: grid;
     align-items: center;
     justify-content: center;
-    /* grid-template-columns: repeat(1fr , 200px); */
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    gap: 15px;
     /* flex-wrap: wrap; */
    /* width: 200px; */
     /* padding: 200px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding: 0 100px;
+   
+   
 
 }
-.task-ready{
-    padding:0 60px;
+.box-container .box .card{
+    /* padding:0 50px;
+    border: 1px solid red;
+     */
+    
+     background: #ffff;
+     border-radius: 5px;
+     /* text-align: center; */
+     padding: 30px 20px;
+    
     
 }
-.task-ready .heading{
+.box .heading{
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
     justify-content: space-between;
 }
 .container .card{
-    padding: 20px 20px;
+    padding: 20px 5px;
     /* border: 1px solid purple; */
     border-radius: .3rem;
     width: 200px;
     background: white;
+    border: 1px solid purple;
 }
 .card .card-container .dot{
     display: flex;
@@ -88,6 +159,9 @@ nav ul a .fa-solid{
     /* border: 1px solid red; */
     gap: 40px;
 
+}
+.card-container .para{
+    line-height: 1.8;
 }
 .card .card-container .dot  #one{
     color: purple;
